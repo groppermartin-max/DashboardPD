@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command \"Get-Content 'C:\\\\Users\\\\mgropper\\\\Documents\\\\defense-dashboard\\\\data\\\\msa_sec_full.json' -TotalCount 2\")",
+      "Bash(powershell -Command \"Get-Content 'C:\\\\Users\\\\mgropper\\\\Documents\\\\defense-dashboard\\\\data\\\\msa_tech_full.json' -TotalCount 2\")",
+      "Bash(powershell -Command \"Get-Content 'C:\\\\Users\\\\mgropper\\\\Documents\\\\defense-dashboard\\\\data\\\\msa_type.json' -TotalCount 2\")",
+      "Bash(ls -la /c/Users/mgropper/Documents/defense-dashboard/data/*.json)"
+    ]
+  }
+}
